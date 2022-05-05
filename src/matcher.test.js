@@ -1,4 +1,5 @@
-const sum = require('./matcher');
+// const sum = require('./matcher');
+import { sum } from './matcher';
 
 test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);

@@ -1,11 +1,11 @@
-const {
+import {
   initializeCityDatabase,
   clearCityDatabase,
   initializeFoodDatabase,
   clearDoodDatabase,
   isCity,
   isValidCityFoodPair
-} = require('./setup-and-teardown');
+} from './setup-and-teardown';
 
 // beforeAll(async () => {
 //   console.log('beforeAll');

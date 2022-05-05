@@ -43,7 +43,7 @@ function isValidCityFoodPair(city, food) {
   return foods[city].includes(food);
 }
 
-module.exports = {
+export {
   initializeCityDatabase,
   clearCityDatabase,
   initializeFoodDatabase,

@@ -1,5 +1,6 @@
-const { fetchData, fetchDataWithCallback } = require('./asynchronous');
+// const { fetchData, fetchDataWithCallback } = require('./asynchronous');
 // const fetchDataWithCallback = require('./fetchData');
+import { fetchData, fetchDataWithCallback } from './asynchronous';
 
 test('the data is peanut butter', async () => {
   const data = await fetchData();

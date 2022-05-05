@@ -13,4 +13,5 @@ function fetchDataWithCallback(callback) {
   callback(null, 'peanut butter');
 }
 
-module.exports = { fetchData, fetchDataWithCallback };
+// module.exports = { fetchData, fetchDataWithCallback };
+export { fetchData, fetchDataWithCallback };
